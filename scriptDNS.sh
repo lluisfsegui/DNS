@@ -20,3 +20,4 @@ named-checkzone 10.18.30.in-addr.arpa /etc/bind/zones/db.30.18.10
 echo "=== Reiniciant Bind9 ==="
 systemctl restart bind9
 systemctl enable bind9
+systemctl status bind9
