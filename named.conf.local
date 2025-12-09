@@ -1,14 +1,14 @@
-zone "Isitech.com" {
+zone "isitech.com" {
         type master;
-        file "/etc/bind/db.isitech.com";
+        file "/etc/bind/zones/db.isitech.com";
 };
 
 zone "estacions.intranet.com" {
         type master;
-        file "/etc/bind/db.estacions.intranet.com";
+        file "/etc/bind/zones/db.estacions.intranet.com";
 };
 
 zone "30.18.10.in-addr.arpa" {
         type master;
-        file "/etc/bind/db.30.18.10";
+        file "/etc/bind/zones/db.30.18.10";
 };
